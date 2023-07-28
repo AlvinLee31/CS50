@@ -6,10 +6,9 @@
 >> ./test     : Execute test 
 
 
-
 printf()
 {
-    int x = 1;
+    int x = 1; 
     int y = 2;
     string z = "WoW"
     printf("%i and %s\n", x + y, z);
