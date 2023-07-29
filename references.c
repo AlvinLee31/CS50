@@ -4,11 +4,11 @@ cs50: Learning.edx.org
 Manual Pages: manual.cs50.io/#cs50.h 
 
 Libraries: 
-    #include <stdio.h> 
-    #include <cs50.h> 
-    #include <string.h>
-    #include <ctype.h>
-    #include <math.h> 
+    #include <stdio.h>        : 
+    #include <cs50.h>         : 
+    #include <string.h>       : string in c 
+    #include <ctype.h>        : 
+    #include <math.h>         : 
     
 int main void
 {
