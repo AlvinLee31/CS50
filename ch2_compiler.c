@@ -1,6 +1,4 @@
-Change change change
-
-git to vscode? 
-
-  
-Jason 
+C Compiler Steps (clang -o hello hello.c -lcs50)
+{
+    
+}
