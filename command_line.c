@@ -1,4 +1,4 @@
-Terminal/ Command Line Interface Commands()
+Terminal/ Command Line Interface Commands() // Command line arguments: the "-rf"
 {
 pwd     : Present Working Directory // pwd 
 ls      : List                      // ./ls  
@@ -28,7 +28,11 @@ man     :
 diff    :
 sudo    : run as admin
 telnet  : 
-clear   : clear terminal (ctrl + l) 
+clear   : clear terminal (ctrl + l)
+--
+clang   : "C Language" compiles txt file          // clang hello.c 
+    clang -o : (-output) renames assembly output  // clang -o hello hello.c 
+    clang -o hello hello.c -lcs50 : include the library "cs50" (if the library isn't built into C like stdio.h)
 }
 
 
