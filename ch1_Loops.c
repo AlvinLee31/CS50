@@ -63,7 +63,7 @@ while Loop // while(true) makes an infinite/ forever loop until break;
     }
 }
 
-Do While Loop (executes the code within do once, then checks the while(condition), if (true), ill run the loop again. Only in C, not python.
+do while Loop (executes the code within do once, then checks the while(condition), if (true), ill run the loop again. Only in C, not python.
 // use when you want a loop to repeat an unknown number of times, but atleast once. 
 // ex. often used when prompting a user for input, until an acceptable input is given. 
 {
