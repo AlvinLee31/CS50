@@ -1,6 +1,6 @@
 Variables 
 {
-    // Declare Variables // Declar variables only when you need them.
+    // Declare Variables only when you need them.
     int number;  // Declare Variables // 
     float sqrt2, sqrt3, pi; // Declare multiple variables // 
     char letter = 'c'; // Initialization is when you Delclaration and Assignment // 
