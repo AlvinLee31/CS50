@@ -46,7 +46,7 @@ Counter
     counter --; 
 }
 
-While Loop // while(true) makes an infinite/ forever loop until break;
+while Loop // while(true) makes an infinite/ forever loop until break;
 // use when you want a loop to repeat an unknown number of times, possibly not at all. 
 // ex. in a game, keep sprites updated, so long as player is alive //
 {
