@@ -1,8 +1,10 @@
-cs50: Learning.edx.org
+https://cs50.harvard.edu/x/2024/weeks/0/
 
+Manual Pages: manual.cs50.io
+VScode Server: CS50.dev
+Helper: CS50.ai 
 
-Manual Pages: manual.cs50.io/#cs50.h 
-
+    
 Libraries: 
     #include <stdio.h>        : 
     #include <cs50.h>         : 
@@ -10,13 +12,6 @@ Libraries:
     #include <ctype.h>        : 
     #include <math.h>         : 
     
-int main void
-{
-
-}
-
-
-
 
 
 Terminal Controls
