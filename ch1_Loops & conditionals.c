@@ -107,19 +107,22 @@ do while Loop (executes the code within do once, then checks the while(condition
     } while (n < 0);
 }
 
-For Loop
+for Loop
 // use when you want a loop to run a discrete number of times, even if you don't the exact number during the moment of program compilation
 // ex. ask user for a number like 100, and the loop runs 100x. 
+// for (control variable; conditional; increment/decrement) 
 {
+    for (int i = 0; i < 3; i++)
+    {
+        printf("Meow\n"); 
+    }
+
+    //longform//
+    
     int i = 0;
     for (i < 3)
     {
         printf("Meow\n");
         i++; 
-    }
-    // Shorthand // 
-    for (int i = 0; i < 3; i++)
-    {
-        printf("Meow\n"); 
     }
 }
