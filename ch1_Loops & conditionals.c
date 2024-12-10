@@ -6,6 +6,12 @@ Variables
     char letter = 'c'; // Initialization is when you Delclaration and Assignment // 
 }
 
+// Conditionals //
+// Conditionals //
+// Conditionals //
+// Conditionals //
+// Conditionals //
+
 if, else if, else (conditional)
 {
     if (x < y)
@@ -34,8 +40,35 @@ if, else if, else (conditional)
     {
         x = 6; 
     }
-
 }
+
+Switch (conditional, c only) 
+{
+    int x = get_int();
+    switch(x)
+    {
+        case 1:
+            printf("One!\n");
+            break;
+        case 2: 
+            printf("Two!\n");
+            break;
+        case 3: 
+            printf("Three!\n");
+            break;
+        default:
+            printf("Sorry!\n");
+    }
+        // switch() is a conditional statement that permits enumeration of discrete cases, an alternative to boolean expressions. 
+        // it's important to break between each case or else it will "fall through" each case, unless intentional. 
+}
+
+
+// LOOPS // 
+// LOOPS // 
+// LOOPS // 
+// LOOPS // 
+// LOOPS // 
 
 Counter
 {
@@ -89,25 +122,4 @@ For Loop
     {
         printf("Meow\n"); 
     }
-}
-
-Switch (c only) 
-{
-    int x = get_int();
-    switch(x)
-    {
-        case 1:
-            printf("One!\n");
-            break;
-        case 2: 
-            printf("Two!\n");
-            break;
-        case 3: 
-            printf("Three!\n");
-            break;
-        default:
-            printf("Sorry!\n");
-    }
-        // switch() is a conditional statement that permits enumeration of discrete cases, an alternative to boolean expressions. 
-        // it's important to break between each case or else it will "fall through" each case, unless intentional. 
 }
