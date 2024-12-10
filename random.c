@@ -11,9 +11,32 @@ Magic Number / Macro / Preprocessor Directive for creating symbolic constants  /
   #define COURSE "CS50"
   // This header will replace every COURSE with "CS50" when compiling 
 
-  // case example // 
-  #define DECKSIZE 52 
+  // case example of a Maigc Number (bad problematiclly defined / hard coded constants //
+  card deal_cards(deck name)
+  {
+    for (int i = 0; i < 52; i++)
+      {
+         // deal the card function/code 
+      }
+  } 
+  // 52 is a Magic Number (which bad because if someone who doesn't know decks have 52 cards read our code they may not know where "52" came from) 
+  // if we locally-globally define a variable 
+  card deal_cards(deck name)
+  {
+    int deck_size = 52 
+    for (int i = 0; deck_size; i++); 
+    {
+      
+    }
+  } 
+    // this is better, but new problem is that even if we locally-globally defined the variable, we could potentially reassign deck_size = deck_size - 1; 
+    // which would change the variable to 51, fucking up our code down the line.  
 
+  // FIXED using #define // 
+  // FIXED using #define // 
+  // FIXED using #define // 
+  
+  #define DECKSIZE 52 
   card deal_cards(deck name)
   {
     for (int i = 0; i < DECKSIZE; i++)
