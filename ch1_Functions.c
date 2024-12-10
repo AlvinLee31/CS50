@@ -1,23 +1,53 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int func1(void);
-void func2(int size); // tease the abstraction in the header
+Declare a function by defining the: 
 
-int main(void)
+ReturnedDataType FunctionName(Declare Data Type & the Input Parameter)
 {
-    int n = get_int(); 
-    print_grid(n);    
+    //the code of your function
 }
 
-//return an int, function name, takes void parameter 
-int func1(void)
+int addition(int a, int b); //tease the function in the header/ above main)
+
+int main()                  //Main Code
 {
-    int n = get_int("Input int: "); 
+    int a=2, c=3; 
+    int add; 
+    add = addition(a,c); 
+    printf("add\n"); 
 }
 
-// returns void, function name, takes 1 parameter/ argument
-void func2(int size)
+int addition(int a, int b) // Declare Function here 
 {
-    printf("size");
+    int sum = a+b;
+    return sum; 
 }
+
+/// Other Ex /// 
+/// Other Ex /// 
+/// Other Ex /// 
+/// Other Ex /// 
+/// Other Ex /// 
+
+void meow(void); //returns void, takes void, it performs code purpose when called, nothing else. 
+{
+    printf("meow\n"); 
+}
+
+/// Other Ex /// 
+void meow(int n); //tease function in header 
+
+int main(void) // main function 
+{
+    int n = 3; 
+    meow(3);
+}
+
+void meow(int n) //Declare function & code 
+{
+    for (int i = 0; i < n; i++)
+    {
+        printf("meow\n");
+    }
+} 
